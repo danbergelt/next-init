@@ -6,7 +6,8 @@
   },
   "extends": ["airbnb-typescript", "plugin:@typescript-eslint/recommended"],
   "rules": {
-    "react/jsx-props-no-spreading": 0
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 0
   },
   "globals": {
     "React": "writable"
