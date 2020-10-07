@@ -1,0 +1,11 @@
+{
+  "testMatch": [
+    "**/*.test.ts?(x)"
+  ],
+  "setupFilesAfterEnv": [
+    "<rootDir>/test/setupTests.ts"
+  ],
+  "modulePaths": [
+    "<rootDir>"
+  ]
+}

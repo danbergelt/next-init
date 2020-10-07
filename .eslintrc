@@ -1,0 +1,17 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "extends": ["airbnb-typescript", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "react/jsx-props-no-spreading": 0
+  },
+  "globals": {
+    "React": "writable"
+  },
+  "env": {
+    "jest": true
+  }
+}
