@@ -1,9 +1,4 @@
 import Head from 'next/head';
-import styled from 'styled-components';
-
-const Header = styled.h1`
-  color: red;
-`;
 
 export default function Home(): JSX.Element {
   return (
@@ -12,7 +7,7 @@ export default function Home(): JSX.Element {
         <title>App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header>Hello, world!</Header>
+      <h1>Hello, world!</h1>
     </div>
   );
 }
